@@ -1,0 +1,82 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+*.lock
+!pubspec.lock
+
+# Environment & Keystore / Secrets
+.env
+.env.*
+*.env
+*.keystore
+*.jks
+key.properties
+google-services.json
+GoogleService-Info.plist
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Flutter / Dart / Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication and Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio & Build Artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+/android/local.properties
+/android/.cxx/
+/android/captures/
+
+# iOS related
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/ephemeral/
+/ios/Runner/GeneratedPluginRegistrant.*
+/ios/ServiceDefinitions.json
+xcuserdata/
+
+# macOS / Windows / Linux desktop build artifacts (if added in the future)
+/macos/Pods/
+/macos/Flutter/ephemeral/
+/windows/flutter/ephemeral/
+/linux/flutter/ephemeral/
+
+# Widget Preview
+.widget_preview/
